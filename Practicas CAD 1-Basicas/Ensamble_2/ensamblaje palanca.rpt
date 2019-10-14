@@ -1,0 +1,69 @@
+*****************************************************************
+      SolidWorks Corporation - Informe de estado del procesador de IGES
+*****************************************************************
+=================================================================
+Información general
+=================================================================
+Enviando I.D. de producto de sistema  : ensamblaje
+Recibiendo I.D. de producto de sistema: ensamblaje
+Nombre de archivo                    : C:\Users\Caro\Desktop\ensamblaje palanca.IGS
+Enviando sistema               : SolidWorks 2010
+Versión de preprocesador         : SolidWorks 2010
+Fecha de creación del archivo           : 130424.000549
+Fecha de creación del modelo          : 130424.000549
+Unidades                        : MM
+Escala espacial del modelo            : 1
+Autor                       : Caro
+Organización                 : 
+
+
+=================================================================
+Información de procesamiento de entidades
+=================================================================
+
+
+=================================================================
+Análisis de precisión del archivo de IGES:
+=================================================================
+  Número de dígitos significativos más frecuente:               1
+  Número de dígitos significativos más alto:                      3
+  Número de dígitos significativos promedio:                1.95918
+  Distancia máxima hasta el origen:                          975.059
+  Distancia mínima hasta el origen:                                0
+  Número de dígitos significativos efectivo:                    3
+
+
+=================================================================
+Resumen de entidades
+=================================================================
+-----------------------------------------------------------------
+Nombre de tipo                                         Número convertido
+---- ----                                         ----- ---------
+100  Arc                                            436       436
+102  Composite curve                                456       456
+110  Line                                           704       704
+120  Surface of revolution                          112       112
+124  Transformation matrix                          341       341
+126  Rational B-spline curve                        836       836
+128  Rational B-spline surface                       74        74
+142  Curve on a parametric surface                  228       228
+144  Trimmed parametric surface                     186       186
+308  Subfigure definition                            12        12
+314  Color definition                                 1         1
+402  Associativity instance                          25        25
+408  Singular subfigure instance                     18        18
+_________________________________________________________________
+
+
+=================================================================
+Resumen de resultados
+=================================================================
+Tipo de operación de SolidWorks                Número
+-----------------------                -----
+Operaciones sólidas12
+Operaciones de superficie0
+Operaciones de curvas/croquis0
+--------------------------------------------
+Hora de comienzo: viernes, enero 30, 2015 00:11:36
+Hora de finalización: viernes, enero 30, 2015 00:11:41
+Tiempo de procesamiento: 0 days, 00 hours, 00 mins, 05 secs

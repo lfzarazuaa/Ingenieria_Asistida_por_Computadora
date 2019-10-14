@@ -1,0 +1,70 @@
+*****************************************************************
+      SolidWorks Corporation - Informe de estado del procesador de IGES
+*****************************************************************
+=================================================================
+Información general
+=================================================================
+Enviando I.D. de producto de sistema  : Assem8
+Recibiendo I.D. de producto de sistema: Assem8
+Nombre de archivo                    : C:\Users\Caro\Desktop\Assem8.IGS
+Enviando sistema               : SolidWorks 2010
+Versión de preprocesador         : SolidWorks 2010
+Fecha de creación del archivo           : 130424.001215
+Fecha de creación del modelo          : 130424.001215
+Unidades                        : MM
+Escala espacial del modelo            : 1
+Autor                       : Caro
+Organización                 : 
+
+
+=================================================================
+Información de procesamiento de entidades
+=================================================================
+
+
+=================================================================
+Análisis de precisión del archivo de IGES:
+=================================================================
+  Número de dígitos significativos más frecuente:              10
+  Número de dígitos significativos más alto:                     10
+  Número de dígitos significativos promedio:                6.26415
+  Distancia máxima hasta el origen:                          1038.14
+  Distancia mínima hasta el origen:                                0
+  Número de dígitos significativos efectivo:                   10
+
+
+=================================================================
+Resumen de entidades
+=================================================================
+-----------------------------------------------------------------
+Nombre de tipo                                         Número convertido
+---- ----                                         ----- ---------
+100  Arc                                            147       147
+102  Composite curve                                164       164
+110  Line                                           289       289
+116  Point                                            1         1
+120  Surface of revolution                           34        34
+124  Transformation matrix                          131       131
+126  Rational B-spline curve                        307       307
+128  Rational B-spline surface                       34        34
+142  Curve on a parametric surface                   82        82
+144  Trimmed parametric surface                      68        68
+308  Subfigure definition                             4         4
+314  Color definition                                11        11
+402  Associativity instance                          13        13
+408  Singular subfigure instance                      7         7
+_________________________________________________________________
+
+
+=================================================================
+Resumen de resultados
+=================================================================
+Tipo de operación de SolidWorks                Número
+-----------------------                -----
+Operaciones sólidas4
+Operaciones de superficie0
+Operaciones de curvas/croquis0
+--------------------------------------------
+Hora de comienzo: viernes, enero 30, 2015 00:08:03
+Hora de finalización: viernes, enero 30, 2015 00:08:20
+Tiempo de procesamiento: 0 days, 00 hours, 00 mins, 17 secs

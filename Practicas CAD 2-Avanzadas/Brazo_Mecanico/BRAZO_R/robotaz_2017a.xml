@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="12/03/17||15:12:58" using="Simscape Multibody Link Version 5.0" from="SolidWorks 25.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="robotaz" uid="robotaz" version="1586">
+<AssemblyFile name="robotaz.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="lateral eje x-2" uid="lateral eje x-2" entityUid="lateral eje x*:*Predeterminado">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.0098745552606621101 -0.091786743943121182 0.94500000000000006</Translation>
+</Transform>
+</Instance>
+<Instance name="lateral eje y-2" uid="lateral eje y-2" grounded="true" entityUid="lateral eje y*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.31012544473933784 -0.091786743943121224 0.63500000000000001</Translation>
+</Transform>
+</Instance>
+<Instance name="lateral eje y-3" uid="lateral eje y-3" entityUid="lateral eje y*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.31012544473933784 -0.091786743943121224 0.94500000000000051</Translation>
+</Transform>
+</Instance>
+<Instance name="Hombro-1" uid="Hombro-1" entityUid="Hombro*:*Predeterminado">
+<Transform>
+<Rotation>0.96997190214580642 0 -0.24321699991498685 0 1 0 0.24321699991498685 0 0.96997190214580642</Rotation>
+<Translation>0.14012544473934285 0.80021325605687887 0.79499999999998894</Translation>
+</Transform>
+</Instance>
+<Instance name="mesa-1" uid="mesa-1" entityUid="mesa*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.019168038771975593 0.2191706620242411 0.59500000000000042</Translation>
+</Transform>
+</Instance>
+<Instance name="lateral eje x-1" uid="lateral eje x-1" entityUid="lateral eje x*:*Predeterminado">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.29012544473933793 -0.091786743943121224 0.64500000000000046</Translation>
+</Transform>
+</Instance>
+<Instance name="BASE-1" uid="BASE-1" entityUid="BASE*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.14012544473933791 0.2302132560568787 0.79500000000000037</Translation>
+</Transform>
+</Instance>
+<Instance name="mesa-2" uid="mesa-2" entityUid="mesa*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.10116803877197561 0.21917066202424107 0.59500000000000053</Translation>
+</Transform>
+</Instance>
+<Instance name="Codo-1" uid="Codo-1" entityUid="Codo*:*Predeterminado">
+<Transform>
+<Rotation>-0.23158667220738477 -0.074310983734282909 -0.96997190214580564 -0.30553367470307263 0.95218127140919795 4.4408920985006252e-016 0.92358907901639165 0.29635907962133728 -0.24321699991498855</Rotation>
+<Translation>-0.41750592840464079 0.77855110007145534 1.2016783925047303</Translation>
+</Transform>
+</Instance>
+<Instance name="mesa-4" uid="mesa-4" entityUid="mesa*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.26516803877197559 0.21817066202424115 0.59500000000000042</Translation>
+</Transform>
+</Instance>
+<Instance name="Brazo-1" uid="Brazo-1" entityUid="Brazo*:*Predeterminado">
+<Transform>
+<Rotation>0.9699719021458062 0.18215983802813776 0.16115924564606715 -1.0668549377257364e-015 -0.66261505446739855 0.74896013885464319 0.24321699991498694 -0.72647029051622558 -0.64271798477218933</Rotation>
+<Translation>-0.49227263133845323 1.377719211155275 0.63642843470476951</Translation>
+</Transform>
+</Instance>
+<Instance name="Antebrazo-1" uid="Antebrazo-1" entityUid="Antebrazo*:*Predeterminado">
+<Transform>
+<Rotation>0.9844029036967793 -0.15946410533343339 0.074310983734284172 0.022519635702747669 -0.30470262943627624 -0.95218127140919717 0.17448148670035143 0.93900346470331364 -0.29635907962134056</Rotation>
+<Translation>-0.41758110771067086 0.77951440756101797 1.2019782145339921</Translation>
+</Transform>
+</Instance>
+<Instance name="mesa-3" uid="mesa-3" entityUid="mesa*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.18316803877197563 0.21917066202424107 0.59500000000000031</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincidente20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje y-2</Uid>
+</InstancePath>
+<Position>-0.34999999999999998 0 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje x-1</Uid>
+</InstancePath>
+<Position>-0.050000000000000044 0 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje y-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje x-1</Uid>
+</InstancePath>
+<Position>-0.30000000000000004 0 0.010000000000000009</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje y-3</Uid>
+</InstancePath>
+<Position>-0.34999999999999998 0 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje x-1</Uid>
+</InstancePath>
+<Position>-0.30000000000000004 0 0.010000000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica23">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>lateral eje x-1</Uid>
+</InstancePath>
+<Position>-0.28000000000000003 0.27700000000000002 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>lateral eje x-2</Uid>
+</InstancePath>
+<Position>-0.020000000000000018 0.27700000000000002 0.010000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica24">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>lateral eje x-1</Uid>
+</InstancePath>
+<Position>-0.020000000000000018 0.27700000000000002 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>lateral eje x-2</Uid>
+</InstancePath>
+<Position>-0.28000000000000003 0.27700000000000002 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente293">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje y-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>-0.10325568465525226 0.035000000000000031 0.15000000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Tangent name="Tangente1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje x-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0 0.34999999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Coincident name="Coincidente295">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hombro-1</Uid>
+</InstancePath>
+<Position>0 -0.21999999999999997 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0 0.34999999999999998 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente296">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Hombro-1</Uid>
+</InstancePath>
+<Position>0 -0.25 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0 0.31999999999999995 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente299">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje y-2</Uid>
+</InstancePath>
+<Position>0 0 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje x-2</Uid>
+</InstancePath>
+<Position>-0.30000000000000004 0 0.010000000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente300">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje y-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje x-1</Uid>
+</InstancePath>
+<Position>-0.30000000000000004 0 0.010000000000000009</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Tangent name="Tangente2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje x-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0 0.34999999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Coincident name="Coincidente302">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje y-2</Uid>
+</InstancePath>
+<Position>-0.34999999999999998 0 0.010000000000000009</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje y-3</Uid>
+</InstancePath>
+<Position>-0.34999999999999998 0 0.010000000000000009</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente303">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lateral eje x-2</Uid>
+</InstancePath>
+<Position>0 0.29999999999999999 0.010000000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>mesa-1</Uid>
+</InstancePath>
+<Position>-0.039042594032637705 -0.010957405967362305 0.34999999999999998</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente304">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje x-2</Uid>
+</InstancePath>
+<Position>-0.30000000000000004 0.29999999999999993 0.010000000000000002</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mesa-1</Uid>
+</InstancePath>
+<Position>0.033357405967362294 -0.010957405967362305 0.34999999999999998</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente306">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lateral eje x-2</Uid>
+</InstancePath>
+<Position>0 0.29999999999999999 0.010000000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>mesa-1</Uid>
+</InstancePath>
+<Position>-0.039042594032637705 -0.010957405967362305 0.34999999999999998</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente307">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lateral eje y-3</Uid>
+</InstancePath>
+<Position>-0.030000000000000027 0.30000000000000004 0</Position>
+<Axis>-1 -1.9141776286640636e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>mesa-1</Uid>
+</InstancePath>
+<Position>-0.039042594032637705 -0.010957405967362305 0.34999999999999998</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente308">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mesa-1</Uid>
+</InstancePath>
+<Position>0.040957405967362297 -0.008957405967362303 0.34999999999999998</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mesa-2</Uid>
+</InstancePath>
+<Position>-0.041042594032637714 -0.0033574059673623091 0.34999999999999998</Position>
+<Axis>-1 -1.2390881971262909e-015 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente310">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mesa-2</Uid>
+</InstancePath>
+<Position>0.040957405967362304 -0.008957405967362303 0.34999999999999998</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mesa-3</Uid>
+</InstancePath>
+<Position>-0.041042594032637714 -0.0033574059673623091 0.34999999999999998</Position>
+<Axis>-1 -1.2390881971262909e-015 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente312">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mesa-3</Uid>
+</InstancePath>
+<Position>0.040957405967362304 -0.008957405967362303 0.34999999999999998</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mesa-4</Uid>
+</InstancePath>
+<Position>-0.041042594032637714 -0.0033574059673623091 0.34999999999999998</Position>
+<Axis>-1 -1.2390881971262909e-015 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente314">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lateral eje y-3</Uid>
+</InstancePath>
+<Position>-0.030000000000000027 0.30000000000000004 0</Position>
+<Axis>-1 -1.9141776286640636e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>mesa-4</Uid>
+</InstancePath>
+<Position>-0.039042594032637712 -0.0099574059673623039 0.34999999999999998</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente316">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lateral eje y-3</Uid>
+</InstancePath>
+<Position>-0.030000000000000027 0.30000000000000004 0</Position>
+<Axis>-1 -1.9141776286640636e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>mesa-2</Uid>
+</InstancePath>
+<Position>-0.039042594032637705 -0.010957405967362305 0.34999999999999998</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente317">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lateral eje y-3</Uid>
+</InstancePath>
+<Position>-0.030000000000000027 0.30000000000000004 0</Position>
+<Axis>-1 -1.9141776286640636e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>mesa-3</Uid>
+</InstancePath>
+<Position>-0.039042594032637712 -0.010957405967362305 0.34999999999999998</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente318">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>BASE-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mesa-2</Uid>
+</InstancePath>
+<Position>0.0065574059673622898 0.011042594032637687 0.34999999999999998</Position>
+<Axis>-2.6283689029951625e-016 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente322">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hombro-1</Uid>
+</InstancePath>
+<Position>-0.5319756651494516 0.57750595509841007 1.1102230246251565e-016</Position>
+<Axis>-1.0000000000000004 3.7007434154171876e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Brazo-1</Uid>
+</InstancePath>
+<Position>0.12000000000000002 0 2.2204460492503131e-016</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica25">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Hombro-1</Uid>
+</InstancePath>
+<Position>-0.56197566514945163 0.57750595509841007 0</Position>
+<Axis>-1.0000000000000004 3.7007434154171876e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Brazo-1</Uid>
+</InstancePath>
+<Position>0.090000000000000052 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente323">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Brazo-1</Uid>
+</InstancePath>
+<Position>0.099999999999999978 0 -0.80000000000000027</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Codo-1</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-016 0 0.11000000000000004</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica26">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Brazo-1</Uid>
+</InstancePath>
+<Position>0.089999999999999969 0 -0.80000000000000004</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Codo-1</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-016 0 0.11000000000000004</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente324">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Codo-1</Uid>
+</InstancePath>
+<Position>0 -0.15600000000000003 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Antebrazo-1</Uid>
+</InstancePath>
+<Position>0 0 0.1570116849790002</Position>
+<Axis>-2.0816681711721685e-016 1.1102230246251565e-016 -1.0000000000000004</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica27">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Codo-1</Uid>
+</InstancePath>
+<Position>0 -0.15600000000000003 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Antebrazo-1</Uid>
+</InstancePath>
+<Position>0 0 0.1570116849790002</Position>
+<Axis>-2.0816681711721685e-016 1.1102230246251565e-016 -1.0000000000000004</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente329">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lateral eje y-2</Uid>
+</InstancePath>
+<Position>-0.31999999999999995 0.29999999999999999 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>lateral eje x-2</Uid>
+</InstancePath>
+<Position>0 0.29999999999999999 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Paralelo3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje y-2</Uid>
+</InstancePath>
+<Position>-0.34999999999999998 0.29999999999999999 0.010000000000000009</Position>
+<Axis>-1.5860328923216522e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mesa-4</Uid>
+</InstancePath>
+<Position>0.033357405967362308 -0.010957405967362305 0.34999999999999998</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincidente334">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lateral eje y-2</Uid>
+</InstancePath>
+<Position>-0.34999999999999998 0.29999999999999999 0.010000000000000009</Position>
+<Axis>-1.5860328923216522e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>mesa-3</Uid>
+</InstancePath>
+<Position>0.033357405967362308 -0.010957405967362305 0.34999999999999998</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Antebrazo" uid="Antebrazo*:*Predeterminado" version="1369">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Antebrazo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.4202966876679266</Mass>
+<CenterOfMass>-0.0020000017759986242 -7.8633979315048445e-006 0.36029778037713417</CenterOfMass>
+<Inertia>0.10399606081605973 0.098780077289978799 0.019070140670028754 7.6206015030981165e-006 0.0013796271582183555 -2.9812924666979955e-006</Inertia>
+</MassProperties>
+<GeometryFile name="Antebrazo_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="BASE" uid="BASE*:*Predeterminado" version="169">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="BASE.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>23.206067414747071</Mass>
+<CenterOfMass>0.0084810673097062104 0.1679975538235047 -0.0001987668820959608</CenterOfMass>
+<Inertia>0.3627891431093076 0.25711123748785419 0.35504031914562179 -0.0004286665290173382 -0.00054238033024623744 0.01804659872886287</Inertia>
+</MassProperties>
+<GeometryFile name="BASE_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.5490196078431373" b="0" a="1"/>
+<Diffuse r="1" g="0.5490196078431373" b="0" a="1"/>
+<Specular r="0.29999999999999999" g="0.16470588235294117" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Brazo" uid="Brazo*:*Predeterminado" version="267">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Brazo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>31.606730651316347</Mass>
+<CenterOfMass>0.012400240670722875 7.684023221340281e-006 -0.32391350957663068</CenterOfMass>
+<Inertia>3.4336643361469821 3.348755624628756 0.21157795679609603 -4.8926314239374009e-005 -0.017576265447122139 -7.2790126622160871e-006</Inertia>
+</MassProperties>
+<GeometryFile name="Brazo_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Codo" uid="Codo*:*Predeterminado" version="307">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Codo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.5027062392514967</Mass>
+<CenterOfMass>-1.0330590443083657e-006 -0.0035844338572843652 0.015016312078730663</CenterOfMass>
+<Inertia>0.058912890209682232 0.034277206550184403 0.056893560592480692 -0.0036664799700092542 4.9209441523211973e-007 -4.8371565198775375e-007</Inertia>
+</MassProperties>
+<GeometryFile name="Codo_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Hombro" uid="Hombro*:*Predeterminado" version="301">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Hombro.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>67.042119754137047</Mass>
+<CenterOfMass>-0.15263727357254361 0.26379258668098693 -3.6834317235730264e-006</CenterOfMass>
+<Inertia>5.7611277314081768 2.5980733526318174 7.6420328153558899 9.9360713220411791e-005 1.667023508252656e-005 2.8071514416583061</Inertia>
+</MassProperties>
+<GeometryFile name="Hombro_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="lateral eje x" uid="lateral eje x*:*Predeterminado" version="143">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="lateral eje x.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.79546039861556295</Mass>
+<CenterOfMass>-0.14999999999999999 0.16562285991795175 0.005000000000000001</CenterOfMass>
+<Inertia>0.0049199866128790326 0.0063765171099245919 0.011283246049493365 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="lateral eje x_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="lateral eje y" uid="lateral eje y*:*Predeterminado" version="161">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="lateral eje y.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.96352544085389358</Mass>
+<CenterOfMass>-0.18051187711018943 0.15849294332072067 0.0049999999999999992</CenterOfMass>
+<Inertia>0.0063819002453782249 0.0098229595256865768 0.016188801013717235 0 0 -0.00049202096969080901</Inertia>
+</MassProperties>
+<GeometryFile name="lateral eje y_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="mesa" uid="mesa*:*Default" version="215">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="mesa.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.17882408462983831</Mass>
+<CenterOfMass>-4.2593216875211268e-005 -0.00057001510457196415 0.20000000000000004</CenterOfMass>
+<Inertia>0.0013509665328574414 0.0014479590218284743 0.00011656446303499184 0 0 6.9263240608634227e-010</Inertia>
+</MassProperties>
+<GeometryFile name="mesa_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

@@ -1,0 +1,8 @@
+Constrained Parts: lateral eje x-2, BASE-1
+Constrain Name: Tangente1
+Error Details: Unknown
+---------------------------------------------------------------------------------
+Constrained Parts: lateral eje x-1, BASE-1
+Constrain Name: Tangente2
+Error Details: Unknown
+---------------------------------------------------------------------------------
